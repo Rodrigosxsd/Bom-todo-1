@@ -44,8 +44,8 @@ wait = WebDriverWait(navegador, 25)
 
 def login():
     # Elemenos para realizar o login.
-    login_element = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[name="Email"]'))).send_keys('LUCIMARA.BRUNELLE')
-    password_element = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[name="Password"]'))).send_keys('01674248580')
+    login_element = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[name="Email"]'))).send_keys('')
+    password_element = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[name="Password"]'))).send_keys('')
     enter_element = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[type="submit"]'))).click()
 def arquivo():
     # Planilha para inserir as placas para realizar o download dos arquivos.
